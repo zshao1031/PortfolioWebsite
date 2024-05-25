@@ -1,0 +1,23 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* 載入CSS Reset */
+@import url("./cssreset.css");
+
+/* 載入Bootstrap 5 */
+@import url("./bootstrap.css");
+
+/* 載入Google font的Noto字體 */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100..900&display=swap');
+
+/* 全域設定 */
+*, *:before, *:after{
+    box-sizing: border-box;
+
+    font-family: "Noto Sans TC", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+
+
